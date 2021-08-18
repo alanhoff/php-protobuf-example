@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package busuu;
+
+// An example event.
+message ExampleEvent {
+  // An example string.
+  string example_str = 1;
+
+  // An example integer.
+  uint32 example_int = 2;
+}

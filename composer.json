@@ -1,0 +1,14 @@
+{
+    "name": "root/www",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Project\\": "src/",
+            "Busuu\\": "build/Busuu/",
+            "GPBMetadata\\": "build/GPBMetadata/"
+        }
+    },
+    "require": {
+        "google/protobuf": "^3.17"
+    }
+}
